@@ -1,0 +1,21 @@
+{
+    "name": "wizkunde/hmac-bundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Wizkunde/silex-errors.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "silex/silex": "1.1.*",
+        "symfony/validator": "~2.3",
+        "wizkunde/silex-errors": "dev-master",
+        "zendframework/zend-crypt": "2.2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wizkunde\\": "src/"
+        }
+    }
+}
